@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: -1;
+    color: white;
+}
+
+body{
+   background-color:white;
+}
+
+header{
+    /*color del header*/
+    background-color: rgb(5, 18, 90);
+    /*ancho de header*/
+    width: 1000px;
+
+    /*vamos a centrar el contenido del header*/
+    margin:20px;
+}
+.main{
+    /*color del main*/
+    background-color: blue;
+    /*ancho de main*/
+    width: 1000px;
+   
+    /*vamos a centrar el contenido del main va a tomar la distancia entre la pared y el contenido*/
+    margin:20px;
+}
+footer{
+     /*color del foother*/
+     background-color: black;
+     /*ancho del foother*/
+     width: 500px;
+     /*Vamos a centrar el foother*/
+     margin:20px;
+   
+}
+/* -------------header------------------*/
+header nav{
+    /*Va a cambiar el color del los links*/
+    background-color: rgb(58, 151, 194);
+    /*La propiedad CSS overflow  especifica: si recortar contenido,
+     dibujar barras de desplazamiento o mostrar el contenido excedente
+      en un elemento a nivel de bloque.*/
+    overflow: hidden; 
+}
+header nav ul{
+    /*Va a quitar los puntos de la lista*/
+    list-style: none;
+}
+header nav ul li{
+    float: left ;
+}
+header nav ul li a{
+    /* vamos a crear bloques*/
+    display: block;
+    /*Vamos a poner margenes entre alto y ancho */
+    padding: 10px 20px;
+    /*y vamos a quitar el subrrallado*/
+    text-decoration: none;
+}
+/* Vamos a poner un subrrelleno al pasar el mouse*/
+header nav ul li a:hover{
+    color: aqua;
+}
+
+/*---------------Main-----------------*/
+.main .articles{
+    /*ancho */
+    width:500px;
+    /*Lado Izquierdo*/
+    float: left;
+    /*color de fondo*/
+    background-color: blue;
+}
+aside{
+    /*ancho*/
+    width: 500px ;
+    /*color*/
+    background-color:aliceblue;
+    /*Ubicacion de lado*/
+    float: left;
+    
+}
+aside ul li{
+    color: black;
+}
+/* NOTA IMPORTANTE: CON LOS WITH DE 
+.main - main.aricles - y aside jugamos con los espacios 
+por ejemplo:
+* .main - width : 939
+* main .aticles - width : 459
+* aside - width: 346 
+asi es como vamos a jugar con los espacios del los lados de la pagina web
+*/
+
+aside h3 {
+
+    background-color: aquamarine;
+
+}
